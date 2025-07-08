@@ -5,39 +5,42 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+header{
+    background-color: #FFF8F3;
+    margin-top: 0%;   
+     padding: 0%;
+}
+.header-bg{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 51px 230px;
 }
-
-nav ul{
-    display: flex;
-    align-items: center;
-}
-
 .title{
     font-weight: 800;
     font-size: 45px;
 }
-
 span{
     color: #FC6E0A ;
 }
-
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
 nav ul li a{
     text-decoration: none;
     font-size: 20px;
     color: #474747;
 }
-
-nav ul li{
-    list-style: none;
-    margin-right: 51px;
-}
-
 .btn{
     border: none;
     border-radius: 5px;
@@ -46,6 +49,29 @@ nav ul li{
     font-weight: bold;
     font-size: 20px;
     padding: 18px 35px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 47px 35px 0px 211px;
+}
+.banner-content{
+    max-height: 356px;
+    max-width: 585px;
+}
+.banneer-greet{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.banner-name{
+    font-weight: bold;
+    font-size: 85px;
+    color: #181818;
+}
+.banner-text{
+    font-size: 18;
+    color: #757575;
 }
 .btn2{
     border: 1px solid #FC6E0A;
@@ -57,63 +83,38 @@ nav ul li{
     padding: 18px 35px;
     margin-left: 30px;
 }
-.banneer-greet{
-    font-weight: 600;
-    font-size: 45px;
-    color: #474747;
-}
-
-.banner-name{
-    font-weight: bold;
-    font-size: 85px;
-    color: #181818;
-}
-.banner-text{
-    font-size: 18;
-    color: #757575;
-}
-.banner-content{
-    max-height: 356px;
-    max-width: 585px;
-}
 .banner-photo{
     height: 978px;
     width: 161px;
 }
-.banner{
-    display: flex;
-    justify-content: space-between;
-    margin: 47px 35px 0px 211px;
-}
-header{
-    background-color: #FFF8F3;
-}
-.header-bg{
-    background-image: url('../images/developer.png'), url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-}
-section-title{
-    font-weight: bold;
-    font-size: 35px;
-    color: #181818;
-}
-.sbg{
-    background-color: #FFF8F3;
-}
-
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 .about{
     border: none;
     border-radius: 10px;
     padding: 130px 155px;
     text-align: center;
     margin-top: 130px;
+    max-width: 967px;
     font-size: 18px;
+}
+.sbg{
+    background-color: #FFF8F3;
+}
+section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
 .item-title{
     font-size: 20px;
@@ -124,8 +125,63 @@ main{
     font-size: 20px;
     color: #474747;
 }
-
-.about-items{
-    display: flex;
-    justify-content: space-around;
+.text-center{
+    text-align: center;
 }
+.skill-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 80px 0px #00000009;
+}
+.skill-title{
+    color: #181818;
+    font-weight: bold;
+    font-size: 20px;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 200px;
+}
+.resume-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.resume-container{
+    display: flex;
+    gap: 25px;
+    margin-top: 110px;
+}
+.column-title{
+    color: #474747;
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    color: #474747;
+    font-weight: bold;
+    font-size: 25px;
+}
+.experience-sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+
+
+
+
+
